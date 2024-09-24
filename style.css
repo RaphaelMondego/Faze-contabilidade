@@ -345,73 +345,10 @@ footer {
     background-color: #0073e6;
 }
 
-/* Estilos responsivos */
-@media (max-width: 768px) {
-    header nav {
-        flex-direction: column;
-        text-align: center;
-    }
 
-    header ul {
-        flex-direction: column;
-    }
-
-    header ul li {
-        margin: 10px 0;
-    }
-
-    #hero {
-        padding: 60px 20px;
-    }
-
-    #contato {
-        padding: 20px;
-    }
-
-    #contato h2 {
-        font-size: 24px;
-    }
-
-    #contact-form .btn-submit {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    #hero h1 {
-        font-size: 24px;
-    }
-
-    #hero p {
-        font-size: 16px;
-    }
-
-    #hero .cta {
-        font-size: 16px;
-        padding: 8px 16px;
-    }
-
-    #servicos .service, #depoimentos .testimonial {
-        text-align: center;
-    }
-
-    #contato {
-        padding: 15px;
-    }
-
-    #contact-form input, 
-    #contact-form textarea {
-        font-size: 14px;
-    }
-
-    #contact-form .btn-submit {
-        font-size: 14px;
-        padding: 10px;
-    }
-}
 
 /* Estilo para a seção de contato */
-.contact-container {
+/* .contact-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -442,22 +379,8 @@ footer {
     font-size: 16px;
     margin: 5px 0;
     color: #004080;
-}
+} */
 
-/* Estilos responsivos */
-@media (max-width: 768px) {
-    .contact-container {
-        flex-direction: column;
-    }
-
-    .map iframe {
-        height: 200px;
-    }
-
-    .phone-numbers p {
-        font-size: 14px;
-    }
-}
 
 /* Estilo para a seção de contato */
 .contact-container {
@@ -540,27 +463,16 @@ footer {
     color: #004080;
 }
 
-/* Estilos responsivos */
-@media (max-width: 768px) {
-    .contact-container {
-        flex-direction: column;
-    }
-
-    .map iframe {
-        height: 200px;
-    }
-
-    .phone-numbers p {
-        font-size: 14px;
-    }
-}
-
 /* Responsividade para celulares (largura máxima de 768px) */
 @media (max-width: 768px) {
     /* Ajuste do header e navegação */
     header {
         flex-direction: column;
         align-items: flex-start;
+        /* height: 38vh; */
+        display: flex;
+        width: 100vw;
+        position: relative;
     }
 
     h1{
@@ -568,8 +480,9 @@ footer {
     }
 
     .title{
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 20px;
+        width: 22vh;
     }
 
     .img-logo{
@@ -579,12 +492,20 @@ footer {
     header nav ul {
         flex-direction: column;
         width: 100%;
-        margin-top: 10px;
-        display: none;
+        margin-left: 60px;
+    }
+
+    header nav ul:hover{
+        text-decoration: none;
+    } 
+
+    .welcome{
+        margin-top: 40px;
     }
 
     header nav ul li {
         margin: 10px 0;
+        display: flex;
     }
 
     header .login-button {
@@ -593,6 +514,7 @@ footer {
         text-align: center;
         font-size: 15px;
         margin-right: 28px;
+        display: none;
     }
 
     header .login-button a {
