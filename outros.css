@@ -208,3 +208,278 @@ footer {
         font-size: 14px;
     }
 }
+
+/* DEPOIMENTOS.HTMLLLLLLLLLLLLLLLLLLLLLLLLLLLLL */
+/* Responsividade para celulares (largura máxima de 768px) */
+@media (max-width: 768px) {
+    /* Ajuste do header e navegação */
+    .header{
+        height: 35vh;
+        width: 100vw;
+    }
+
+    .img-logo{
+        width: 10vw;
+        margin-top: 94px;
+        height: 8vh;
+    }
+
+    .title{
+        margin-top: 110px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 70vw;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    header nav ul li {
+        height: 2vh;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    header .login-button {
+        margin-top: 10px;
+        margin-right: 60px;
+        width: 80vw;
+        text-align: center;
+    }
+
+    header .login-button a {
+        display: inline-block;
+        width: 30%;
+        padding: 5px;
+        margin-left: 25px;
+        margin-bottom: 90px;
+    }
+
+    .o-que{
+        margin-top: 260px;
+    }
+
+    /* Depoimentos */
+    #depoimentos {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #depoimentos h1 {
+        font-size: 1.8rem;
+    }
+
+    #depoimentos img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .testimonial {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    .testimonial p {
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+
+/* SOBRE.HTMLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL */
+@media (max-width: 768px) {
+    /* Ajuste do header e navegação */
+    .header-sobre{
+        height: 35vh;
+        width: 100vw;
+    }
+
+    .img-logo{
+        width: 10vw;
+        margin-top: 94px;
+        height: 8vh;
+    }
+
+    .title{
+        margin-top: 110px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 70vw;
+        text-align: center;
+        margin-right: 60px;
+    }
+
+    .img-sobre-nos{
+        width:85vw;
+        margin-left: 23px;
+    }
+
+    .sobre-a-faze{
+        margin-top: 260px;
+    }
+
+    header nav ul li {
+        height: 2vh;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    header .login-button {
+        margin-top: 10px;
+        margin-right: 60px;
+        width: 80vw;
+        text-align: center;
+    }
+
+    header .login-button a {
+        display: inline-block;
+        width: 30%;
+        padding: 5px;
+        margin-left: 25px;
+        margin-bottom: 90px;
+    }
+
+    .o-que{
+        margin-top: 260px;
+    }
+
+    /* Depoimentos */
+    #depoimentos {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #depoimentos h1 {
+        font-size: 1.8rem;
+    }
+
+    #depoimentos img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .testimonial {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    .testimonial p {
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+
+/* SERVICO.HTMLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL */
+@media (max-width: 768px) {
+    /* Ajuste do header e navegação */
+    .header-servico{
+        height: 35vh;
+        width: 100vw;
+    }
+
+    .nossos-servicos{
+        margin-top: 250px;
+    }
+
+    .img-servico{
+        width: 95vw;
+    }
+
+    .img-logo{
+        width: 10vw;
+        margin-top: 94px;
+        height: 8vh;
+    }
+
+    .title{
+        margin-top: 110px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 70vw;
+        text-align: center;
+        margin-right: 60px;
+    }
+
+    .img-sobre-nos{
+        width:85vw;
+        margin-left: 23px;
+    }
+
+    .sobre-a-faze{
+        margin-top: 260px;
+    }
+
+    header nav ul li {
+        height: 2vh;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    header .login-button {
+        margin-top: 10px;
+        margin-right: 60px;
+        width: 80vw;
+        text-align: center;
+    }
+
+    header .login-button a {
+        display: inline-block;
+        width: 30%;
+        padding: 5px;
+        margin-left: 25px;
+        margin-bottom: 90px;
+    }
+
+    .o-que{
+        margin-top: 260px;
+    }
+
+    /* Depoimentos */
+    #depoimentos {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #depoimentos h1 {
+        font-size: 1.8rem;
+    }
+
+    #depoimentos img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .testimonial {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    .testimonial p {
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
